@@ -5,7 +5,7 @@
   "homepage": "https://saurabhv749.github.io/demon-slayer-perfect-shots/",
   "scripts": {
     "start": "parcel src/pug/index.pug",
-    "build": "parcel build --dist-dir public --public-url ./ --no-source-maps src/pug/index.pug"
+    "build": "parcel build --dist-dir public --public-url https://saurabhv749.github.io/demon-slayer-perfect-shots/ --no-source-maps src/pug/index.pug"
   },
   "keywords": [],
   "author": "saurabh verma",
