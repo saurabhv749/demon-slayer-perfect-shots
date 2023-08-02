@@ -1,0 +1,49 @@
+:root {
+  --px: 5vw;
+  --px-lg: 10vw;
+  --header-height: 50px;
+  --z-bg: -1;
+  --z-navigation: 2;
+  --z-about: 3;
+  --z-nav-main: 5;
+  --z-preloader: 10;
+  --content-width: 400px;
+  --dark-blue: rgb(20, 6, 85);
+  --text-light: rgb(255, 255, 255);
+  --theme-color: 216, 112, 147;
+  --text-shadow: 1px 1px 0 #111;
+  --text-white: rgb(255, 255, 255);
+  --color-black: rgb(34, 34, 34);
+  --color-gray: rgb(90, 90, 90);
+  --color-gray-dark: rgb(64, 64, 64);
+  --color-gray-light: rgb(242, 242, 242);
+  --w-light: 200;
+  --w-medium: 400;
+  --w-bold: 700;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 200;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  user-select: none;
+  position: relative;
+
+  &.transitioning {
+    pointer-events: none;
+  }
+}
+
+%button-fill {
+  background-color: var(--text-white);
+  color: #333;
+  text-decoration: none;
+  width: 150px;
+  border-radius: 75px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+  font-weight: 500;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "demon-slayer-perfect-shots",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/pug/index.pug",
+    "build": "parcel build --dist-dir public --public-url ./ --no-source-maps src/pug/index.pug"
+  },
+  "keywords": [],
+  "author": "saurabh verma",
+  "license": "ISC",
+  "dependencies": {
+    "fontfaceobserver": "^2.3.0",
+    "gsap": "^3.12.2",
+    "localforage": "^1.10.0",
+    "smooth-scrollbar": "^8.8.4",
+    "three": "^0.155.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-glsl": "^2.9.3",
+    "@parcel/transformer-pug": "^2.9.3",
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3"
+  }
+}

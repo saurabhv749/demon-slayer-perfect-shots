@@ -1,0 +1,19 @@
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: var(--z-nav-main);
+  pointer-events: none;
+  padding: var(--px);
+
+  .social {
+    display: flex;
+    justify-content: flex-end;
+
+    &__link {
+      margin-left: 20px;
+      pointer-events: all;
+    }
+  }
+}

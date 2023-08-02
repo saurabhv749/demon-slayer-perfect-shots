@@ -1,0 +1,20 @@
+.webgl {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  pointer-events: none;
+
+  &__container {
+    height: 100%;
+    width: 100%;
+  }
+
+  canvas {
+    height: 100%;
+    width: 100%;
+    // background-color: palevioletred;
+  }
+}
