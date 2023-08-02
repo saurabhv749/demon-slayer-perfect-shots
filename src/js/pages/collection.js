@@ -66,7 +66,7 @@ export default class Collection extends Page {
 
   // content
   updateContent() {
-    this.gID = window.location.pathname.split("/characters/")[1];
+    this.gID = window.location.pathname.split("/characters/").at(-1);
     let c = this.data.find((x) => x.galleryID === this.gID);
 
     this.voice.textContent = c.voice;

@@ -139,8 +139,9 @@ export default class Home extends Page {
   updateCollection(d) {
     const { name, category, galleryID } = d;
 
-    this.collectionLink.href = "/characters/" + galleryID;
-    this.preview.href = "/characters/" + galleryID;
+    this.collectionLink.href =
+      "/demon-slayer-perfect-shots/characters/" + galleryID;
+    this.preview.href = "/demon-slayer-perfect-shots/characters/" + galleryID;
 
     this.title.textContent = name;
     this.category.textContent = category;
