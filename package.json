@@ -2,6 +2,7 @@
   "name": "demon-slayer-perfect-shots",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://saurabhv749.github.io/demon-slayer-perfect-shots/",
   "scripts": {
     "start": "parcel src/pug/index.pug",
     "build": "parcel build --dist-dir public --public-url ./ --no-source-maps src/pug/index.pug"
