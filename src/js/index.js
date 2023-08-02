@@ -73,15 +73,15 @@ class App {
 
   async setPage(path) {
     let p;
-    if (path === "/") {
+    if (path === "/demon-slayer-perfect-shots/") {
       p = this.pages.home;
-    } else if (path.includes("/characters")) {
+    } else if (path.includes("/demon-slayer-perfect-shots/characters")) {
       p = this.pages.collection;
-    } else if (path === "/about") {
+    } else if (path === "/demon-slayer-perfect-shots/about") {
       p = this.pages.about;
     } else {
       p = this.pages.home;
-      history.pushState(null, null, "/");
+      history.pushState(null, null, "/demon-slayer-perfect-shots/");
     }
 
     this.inTransition = true;
